@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "updates":{
+        "enabled": true,
+        "checkAutomatically": "ON_LOAD",
+        "fallbackToCacheTimeout": 30000
+    },
+    "name": "cupdate2",
+    "description": "This project is really great.",
+    "slug": "cs50m-project2",
+    "sdkVersion": "32.0.0",
+      "android": {
+        "package": "com.yourcompany.yourappname",
+        "permissions": [ "CAMERA" ]
+    },
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/download.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourappname"
+    }
+  }
+}
